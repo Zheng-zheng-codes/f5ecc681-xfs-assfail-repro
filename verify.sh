@@ -5,7 +5,7 @@ cd "$HERE"
 fail=0
 for f in repro/repro.prog repro/repro.kernsight.prog \
          7.3/serial-7.3.log 7.3/validation-run-20261028/serial.log \
-         7.3/RESULT.txt kernel/SOURCES.md; do
+         kernel/SOURCES.md; do
   [ -s "$f" ] || { echo "MISSING $f"; fail=1; }
 done
 grep -q 'Log size 516 blocks too small, minimum size is 636 blocks' 7.3/validation-run-20261028/serial.log || { echo "missing 516/636"; fail=1; }

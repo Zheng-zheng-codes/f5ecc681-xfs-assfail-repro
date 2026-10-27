@@ -1,7 +1,0 @@
-# f5ecc68123ed3995ddc00263a1509582345f2cf9
-
-- 标题: kernel BUG in xfs_assert: NUM (fs/xfs/xfs_log.c line593)
-- 复现器: repro.kernsight.prog
-- 7.3 执行: NO
-- 判定依据: class=kernel BUG sym=xfs_assert
-- 耗时: 484s

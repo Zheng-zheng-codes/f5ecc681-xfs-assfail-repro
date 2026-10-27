@@ -29,7 +29,6 @@ repro/repro.kernsight.prog   state-construction recipe (~1.4 MB)
 repro/repro.prog             small testcase (~2.5 KB; NOT needed)
 7.3/serial-7.3.log           earlier 2026-10-27 boot-to-crash serial
 7.3/console-7.3.log, 7.3/cmdline-7.3.txt, 7.3/boot-info-7.3.txt
-7.3/RESULT.txt               earlier 2026-10-27 result
 7.3/validation-run-20261028/ 2026-10-28 recipe-only validation
                              (serial log, boot information, kernel command line)
 kernel/kernel-7.3.config, kernel/SOURCES.md
